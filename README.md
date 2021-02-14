@@ -1,6 +1,6 @@
 
 ## Guide to downloading and running this Docker image
-_by Sushil Kumar from University of Colorado Anschutz Medical Campus_
+_by Sushil Kumar, University of Colorado Anschutz Medical Campus_
 
 ### Step 1: Install Docker
 
