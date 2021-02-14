@@ -1,10 +1,11 @@
 
 ## Guide to downloading and running this Docker image
-_by Sushil Kumar_
+#### Github link: https://github.com/KumarUCD/Cellranger-5.git
+_by Sushil Kumar from University of Colorado Anschutz Medical Campus_
 
 ### Step 1: Install Docker
 
-To download and run intractive cellranger Docker image, you first need to install Docker on your computer. If you have Windows or Mac computer you can install the docker [click here](https://www.docker.com/products/docker-desktop) by simply downloading and clicking the installer which is available for both Mac and Windows. For Linux users, follow the instructions [here](https://docs.docker.com/linux/step_one/). 
+To download and run interactive cellranger Docker image, you first need to install Docker on your computer. If you have Windows or Mac computer you can install the docker [click here](https://www.docker.com/products/docker-desktop) by simply downloading and clicking the installer which is available for both Mac and Windows. For Linux users, follow the instructions [here](https://docs.docker.com/linux/step_one/). 
 
 ### Step 2: Download and run the Docker image
 
@@ -20,16 +21,16 @@ The image can be downloaded and executed through the CLI of Docker.
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
 ```
 ```
-3. Right click of http link and open it
+3. Right-click of HTTP link and open it
 ```
 ```
-4. Click the Cellranger.ipnyb in left panel 
+4. Click the Cellranger.ipnyb in the left panel 
 ```
 
 
 #### Option 2: Build your own docker using docker file and CLI
 
-**Note:** You need to download github folder.
+**Note:** You need to download GitHub folder.
 ```
 1. In terminal/CMD
           $docker build -t interactive_cellranger-5:latest
@@ -39,15 +40,15 @@ The image can be downloaded and executed through the CLI of Docker.
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
 ```
 ```
-3. Right click of http link and open it
+3. Right-click of HTTP link and open it
 ```
 ```
-4. Click the Cellranger.ipnyb in left panel
+4. Click the Cellranger.ipnyb in the left panel
 ```
 
 #### Option 3: Build your own docker using docker file and CLI directly from github
 
-**Note:** You need not to download github folder.
+**Note:** You need not download GitHub folder.
 ```
 1. In terminal/CMD
           $ docker build https://github.com/KumarUCD/Cellranger-5.git#main -t interactive_cellranger-5:latest
@@ -57,14 +58,14 @@ The image can be downloaded and executed through the CLI of Docker.
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
 ```
 ```
-3. Right click of http link and open it
+3. Right-click of HTTP link and open it
 ```
 ```
-4. Click the Cellranger.ipnyb in left panel 
+4. Click the Cellranger.ipnyb in the left panel 
 ```
 
 # Jupyter lab Example
-## Run intractive Cellranger for 10X single cell RNA sequence analysis on any os (tested on Ubuntu, Windows, Mac)
+## Run interactive Cellranger for 10X single-cell RNA sequence analysis on any os (tested on Ubuntu, Windows, Mac)
 
 **Download human refrence genome index**
 ```bash
