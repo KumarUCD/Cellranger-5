@@ -1,5 +1,5 @@
 
-## Guide to downloading and running this Docker image
+## Guide to downloading and running this interactive Cellranger Docker image
 _by Sushil Kumar, University of Colorado Anschutz Medical Campus_
 
 ### Step 1: Install Docker
