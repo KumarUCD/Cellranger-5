@@ -1,0 +1,24 @@
+{
+    "gene_index": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/FULL_COUNT_INPUTS/WRITE_GENE_INDEX/fork0/chnk0-u085c28c722/files/gene_index.json",
+    "no_target_umi_filter": false,
+    "reference_path": "/home/workspace/refdata-gex-GRCh38-2020-A",
+    "rps_limit": null,
+    "sample_def": [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "library_type": "Gene Expression",
+            "read_path": "/home/workspace/data",
+            "sample_indices": [
+                "any"
+            ],
+            "sample_names": [
+                "tinygex"
+            ],
+            "subsample_rate": null,
+            "target_set": null,
+            "target_set_name": null
+        }
+    ]
+}

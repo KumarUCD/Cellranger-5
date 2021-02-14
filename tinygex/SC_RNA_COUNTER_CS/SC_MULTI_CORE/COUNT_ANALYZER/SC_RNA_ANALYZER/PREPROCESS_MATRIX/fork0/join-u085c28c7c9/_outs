@@ -1,0 +1,5 @@
+{
+    "is_multi_genome": false, 
+    "preprocessed_matrix_h5": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork0/join-u085c28c7c9/files/preprocessed_matrix_h5.h5", 
+    "cloupe_matrix_h5": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork0/join-u085c28c7c9/files/cloupe_matrix_h5.h5"
+}

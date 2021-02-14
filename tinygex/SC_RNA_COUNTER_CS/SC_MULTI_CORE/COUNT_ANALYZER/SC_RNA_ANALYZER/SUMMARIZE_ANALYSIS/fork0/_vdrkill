@@ -1,0 +1,34 @@
+{
+    "count": 61,
+    "size": 2522615,
+    "timestamp": "2021-02-14 06:49:46",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/chnk0-u085c28c7fb/files/analysis",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/chnk0-u085c28c7fb/files/analysis_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/join-u085c28c7fb/files/summary.json",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/SUMMARIZE_ANALYSIS/fork0/join-u085c28c7fb/files/analysis"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:49:31Z",
+            "DeltaBytes": 1938996
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:32Z",
+            "DeltaBytes": 1936193
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:32.985046088Z",
+            "DeltaBytes": -1928368
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:43.187944386Z",
+            "DeltaBytes": -2
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:46.744291609Z",
+            "DeltaBytes": -594245
+        }
+    ]
+}

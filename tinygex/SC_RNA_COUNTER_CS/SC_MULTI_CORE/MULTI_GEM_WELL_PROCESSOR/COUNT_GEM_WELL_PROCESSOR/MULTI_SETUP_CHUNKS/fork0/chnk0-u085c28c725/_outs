@@ -1,0 +1,142 @@
+{
+  "barcode_whitelist": "3M-february-2018",
+  "chemistry_def": {
+    "barcode_read_length": 16,
+    "barcode_read_offset": 0,
+    "barcode_read_type": "R1",
+    "barcode_whitelist": "3M-february-2018",
+    "description": "Single Cell 3' v3",
+    "endedness": "three_prime",
+    "name": "SC3Pv3",
+    "read_type_to_bcl2fastq_filename": {
+      "I1": "I1",
+      "I2": null,
+      "R1": "R1",
+      "R2": "R2"
+    },
+    "read_type_to_bcl_processor_filename": {
+      "I1": "I1",
+      "I2": "I2",
+      "R1": "RA",
+      "R2": null
+    },
+    "rna_read2_length": null,
+    "rna_read2_offset": 0,
+    "rna_read2_type": null,
+    "rna_read_length": null,
+    "rna_read_offset": 0,
+    "rna_read_type": "R2",
+    "si_read_length": null,
+    "si_read_offset": 0,
+    "si_read_type": "I1",
+    "strandedness": "+",
+    "umi_min_read_length": 10,
+    "umi_read_length": 12,
+    "umi_read_offset": 16,
+    "umi_read_type": "R1"
+  },
+  "chunks": [
+    {
+      "chemistry": {
+        "barcode_read_length": 16,
+        "barcode_read_offset": 0,
+        "barcode_read_type": "R1",
+        "barcode_whitelist": "3M-february-2018",
+        "description": "Single Cell 3' v3",
+        "endedness": "three_prime",
+        "name": "SC3Pv3",
+        "read_type_to_bcl2fastq_filename": {
+          "I1": "I1",
+          "I2": null,
+          "R1": "R1",
+          "R2": "R2"
+        },
+        "read_type_to_bcl_processor_filename": {
+          "I1": "I1",
+          "I2": "I2",
+          "R1": "RA",
+          "R2": null
+        },
+        "rna_read2_length": null,
+        "rna_read2_offset": 0,
+        "rna_read2_type": null,
+        "rna_read_length": null,
+        "rna_read_offset": 0,
+        "rna_read_type": "R2",
+        "si_read_length": null,
+        "si_read_offset": 0,
+        "si_read_type": "I1",
+        "strandedness": "+",
+        "umi_min_read_length": 10,
+        "umi_read_length": 12,
+        "umi_read_offset": 16,
+        "umi_read_type": "R1"
+      },
+      "chunk_id": 0,
+      "fastqs": {
+        "i1": "/home/workspace/data/tinygex_S1_L001_I1_001.fastq.gz",
+        "i2": null,
+        "r1": "/home/workspace/data/tinygex_S1_L001_R1_001.fastq.gz",
+        "r1_interleaved": false,
+        "r2": "/home/workspace/data/tinygex_S1_L001_R2_001.fastq.gz"
+      },
+      "gem_group": 1,
+      "library_id": 0,
+      "library_type": "Gene Expression",
+      "read_group": "tinygex:0:1:HFWFVDMXX:1",
+      "read_lengths": {},
+      "subsample_rate": null
+    },
+    {
+      "chemistry": {
+        "barcode_read_length": 16,
+        "barcode_read_offset": 0,
+        "barcode_read_type": "R1",
+        "barcode_whitelist": "3M-february-2018",
+        "description": "Single Cell 3' v3",
+        "endedness": "three_prime",
+        "name": "SC3Pv3",
+        "read_type_to_bcl2fastq_filename": {
+          "I1": "I1",
+          "I2": null,
+          "R1": "R1",
+          "R2": "R2"
+        },
+        "read_type_to_bcl_processor_filename": {
+          "I1": "I1",
+          "I2": "I2",
+          "R1": "RA",
+          "R2": null
+        },
+        "rna_read2_length": null,
+        "rna_read2_offset": 0,
+        "rna_read2_type": null,
+        "rna_read_length": null,
+        "rna_read_offset": 0,
+        "rna_read_type": "R2",
+        "si_read_length": null,
+        "si_read_offset": 0,
+        "si_read_type": "I1",
+        "strandedness": "+",
+        "umi_min_read_length": 10,
+        "umi_read_length": 12,
+        "umi_read_offset": 16,
+        "umi_read_type": "R1"
+      },
+      "chunk_id": 1,
+      "fastqs": {
+        "i1": "/home/workspace/data/tinygex_S1_L002_I1_001.fastq.gz",
+        "i2": null,
+        "r1": "/home/workspace/data/tinygex_S1_L002_R1_001.fastq.gz",
+        "r1_interleaved": false,
+        "r2": "/home/workspace/data/tinygex_S1_L002_R2_001.fastq.gz"
+      },
+      "gem_group": 1,
+      "library_id": 0,
+      "library_type": "Gene Expression",
+      "read_group": "tinygex:0:1:HFWFVDMXX:2",
+      "read_lengths": {},
+      "subsample_rate": null
+    }
+  ]
+}

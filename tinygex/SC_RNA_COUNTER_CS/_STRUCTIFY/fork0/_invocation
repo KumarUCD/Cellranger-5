@@ -1,0 +1,49 @@
+@include "rna/sc_rna_counter_cs.mro"
+
+call _STRUCTIFY(
+    common_input = {
+        multi_config_sha: null,
+        sample_desc:      "",
+        sample_id:        "tinygex",
+    },
+    count_input  = {
+        aligner:               null,
+        cell_calling_config: {
+            cell_barcodes:          null,
+            force_cells:            null,
+            override_library_types: null,
+            override_mode:          null,
+            recovered_cells:        5000,
+        },
+        chemistry:             "auto",
+        feature_reference:     null,
+        gene_index:            "/home/workspace/tinygex/SC_RNA_COUNTER_CS/WRITE_GENE_INDEX/fork0/chnk0-u085c28c722/files/gene_index.json",
+        include_introns:       false,
+        no_bam:                false,
+        no_secondary_analysis: false,
+        no_target_umi_filter:  false,
+        r1_length:             null,
+        r2_length:             null,
+        reference_path:        "/home/workspace/refdata-gex-GRCh38-2020-A",
+        sample_def: [
+            {
+                "fastq_mode": "ILMN_BCL2FASTQ",
+                "gem_group": null,
+                "lanes": null,
+                "library_type": "Gene Expression",
+                "read_path": "/home/workspace/data",
+                "sample_indices": ["any"],
+                "sample_names": ["tinygex"],
+                "subsample_rate": null,
+                "target_set": null,
+                "target_set_name": null,
+            },
+        ],
+        trim_polya_min_score:  20,
+        trim_tso_min_score:    20,
+    },
+    config       = {
+        disable_count: false,
+        disable_vdj:   true,
+    },
+)

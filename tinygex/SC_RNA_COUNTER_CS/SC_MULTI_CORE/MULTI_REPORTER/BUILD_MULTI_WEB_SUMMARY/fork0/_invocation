@@ -1,0 +1,7 @@
+@include "rna/_sc_multi_defs.mro"
+
+call BUILD_MULTI_WEB_SUMMARY(
+    vdj_t_data = null,
+    vdj_b_data = null,
+    count_data = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/chnk0-u085c28c7fd/files/ws_data.json",
+)

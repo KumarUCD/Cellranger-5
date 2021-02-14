@@ -1,0 +1,13 @@
+@include "rna/_sc_rna_analyzer_stages.mro"
+
+call CHOOSE_DIMENSION_REDUCTION_OUTPUT(
+    skip         = false,
+    pca_h5_list  = [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork0/join-u085c28c7cd/files/pca_h5.h5",
+        null,
+    ],
+    pca_csv_list = [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_PCA/fork0/join-u085c28c7cd/files/pca_csv",
+        null,
+    ],
+)

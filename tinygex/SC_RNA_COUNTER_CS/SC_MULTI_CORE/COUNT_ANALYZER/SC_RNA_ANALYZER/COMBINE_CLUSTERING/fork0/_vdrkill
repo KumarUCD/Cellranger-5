@@ -1,0 +1,20 @@
+{
+    "count": 22,
+    "size": 319800,
+    "timestamp": "2021-02-14 06:49:32",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork0/chnk0-u085c28c7e1/files/clustering_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/COMBINE_CLUSTERING/fork0/chnk0-u085c28c7e1/files/clustering_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:49:05Z",
+            "DeltaBytes": 325053
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:32.935581538Z",
+            "DeltaBytes": -319800
+        }
+    ]
+}

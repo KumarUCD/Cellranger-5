@@ -1,0 +1,8 @@
+{
+    "multi_pos_sorted_bam": null,
+    "pos_sorted_bam": {
+        "bam_file": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/WRITE_POS_BAM/fork0/join-u085c28c78e/files/pos_sorted_single_sample.bam",
+        "bam_index_file": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/WRITE_POS_BAM/fork0/join-u085c28c78e/files/pos_sorted_single_sample.bam.bai",
+        "sample": "single_sample"
+    }
+}

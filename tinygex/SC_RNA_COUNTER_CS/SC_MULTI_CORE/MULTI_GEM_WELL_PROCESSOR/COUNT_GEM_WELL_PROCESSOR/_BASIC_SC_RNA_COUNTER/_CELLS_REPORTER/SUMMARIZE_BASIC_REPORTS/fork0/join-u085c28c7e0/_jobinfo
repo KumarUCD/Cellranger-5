@@ -1,0 +1,139 @@
+{
+    "name": "ID.tinygex.SC_RNA_COUNTER_CS.SC_MULTI_CORE.MULTI_GEM_WELL_PROCESSOR.COUNT_GEM_WELL_PROCESSOR._BASIC_SC_RNA_COUNTER._CELLS_REPORTER.SUMMARIZE_BASIC_REPORTS.fork0",
+    "pid": 3071,
+    "host": "bf18a83e9406",
+    "type": "local",
+    "cwd": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/SUMMARIZE_BASIC_REPORTS/fork0/join-u085c28c7e0/files",
+    "python": {
+        "binpath": "/home/cellranger-5.0.1/external/anaconda/bin/python",
+        "version": "2.7.17 |Anaconda, Inc.| (default, Oct 21 2019, 19:04:46) \n[GCC 7.3.0]"
+    },
+    "rusage": {
+        "self": {
+            "ru_maxrss": 19348,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 388,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0.00322,
+            "ru_stime": 0,
+            "ru_inblock": 0,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 0
+        },
+        "children": {
+            "ru_maxrss": 1284196,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 1354396,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 16.529671,
+            "ru_stime": 1.518988,
+            "ru_inblock": 0,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 117
+        }
+    },
+    "used_bytes": {
+        "rss": 882900992,
+        "shared": 64307200,
+        "vmem": 2275115008,
+        "text": 2551808,
+        "stack": 974790656,
+        "proc_count": 1
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 17623,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 16,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 6108.1073927441785,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 3.199835685877662,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 1010.8458738484635,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 1.508393098527648,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2021-02-14 06:49:04",
+        "end": "2021-02-14 06:49:22",
+        "duration_seconds": 18.255858287
+    },
+    "threads": 1,
+    "memGB": 3,
+    "vmemGB": 6,
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_RNA_COUNTER_CS",
+        "args": {
+            "chemistry": "auto",
+            "feature_reference": null,
+            "force_cells": null,
+            "include_introns": false,
+            "no_bam": false,
+            "no_secondary_analysis": false,
+            "no_target_umi_filter": false,
+            "r1_length": null,
+            "r2_length": null,
+            "recovered_cells": 5000,
+            "reference_path": "/home/workspace/refdata-gex-GRCh38-2020-A",
+            "sample_def": [
+                {
+                    "gem_group": null,
+                    "library_type": "Gene Expression",
+                    "subsample_rate": null,
+                    "lanes": null,
+                    "sample_names": [
+                        "tinygex"
+                    ],
+                    "sample_indices": [
+                        "any"
+                    ],
+                    "target_set_name": null,
+                    "fastq_mode": "ILMN_BCL2FASTQ",
+                    "read_path": "/home/workspace/data",
+                    "target_set": null
+                }
+            ],
+            "sample_desc": "",
+            "sample_id": "tinygex",
+            "trim_polya_min_score": 20,
+            "trim_tso_min_score": 20
+        },
+        "mro_file": "rna/sc_rna_counter_cs.mro"
+    },
+    "version": {
+        "martian": "v4.0.2",
+        "pipelines": "cellranger-5.0.1"
+    }
+}

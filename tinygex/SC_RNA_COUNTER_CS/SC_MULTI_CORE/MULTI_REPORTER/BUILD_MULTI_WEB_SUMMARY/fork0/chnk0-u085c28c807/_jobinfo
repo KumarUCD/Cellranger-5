@@ -1,0 +1,139 @@
+{
+    "name": "ID.tinygex.SC_RNA_COUNTER_CS.SC_MULTI_CORE.MULTI_REPORTER.BUILD_MULTI_WEB_SUMMARY.fork0.chnk0",
+    "pid": 3448,
+    "host": "bf18a83e9406",
+    "type": "local",
+    "cwd": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/BUILD_MULTI_WEB_SUMMARY/fork0/chnk0-u085c28c807/files",
+    "python": {
+        "binpath": "/home/cellranger-5.0.1/external/anaconda/bin/python",
+        "version": "2.7.17 |Anaconda, Inc.| (default, Oct 21 2019, 19:04:46) \n[GCC 7.3.0]"
+    },
+    "rusage": {
+        "self": {
+            "ru_maxrss": 19348,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 371,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0,
+            "ru_stime": 0.006582,
+            "ru_inblock": 0,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 0
+        },
+        "children": {
+            "ru_maxrss": 20764,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 6486,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0.084888,
+            "ru_stime": 0.003646,
+            "ru_inblock": 8,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 3
+        }
+    },
+    "used_bytes": {
+        "rss": 19812352,
+        "shared": 3145728,
+        "vmem": 1101541376,
+        "text": 2572288,
+        "stack": 148131840,
+        "proc_count": 1
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 6,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 0,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 1822.4026130823602,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 0,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 0,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 0,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2021-02-14 06:49:43",
+        "end": "2021-02-14 06:49:43",
+        "duration_seconds": 0.103044362
+    },
+    "threads": 1,
+    "memGB": 1,
+    "vmemGB": 4,
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_RNA_COUNTER_CS",
+        "args": {
+            "chemistry": "auto",
+            "feature_reference": null,
+            "force_cells": null,
+            "include_introns": false,
+            "no_bam": false,
+            "no_secondary_analysis": false,
+            "no_target_umi_filter": false,
+            "r1_length": null,
+            "r2_length": null,
+            "recovered_cells": 5000,
+            "reference_path": "/home/workspace/refdata-gex-GRCh38-2020-A",
+            "sample_def": [
+                {
+                    "gem_group": null,
+                    "library_type": "Gene Expression",
+                    "subsample_rate": null,
+                    "lanes": null,
+                    "sample_names": [
+                        "tinygex"
+                    ],
+                    "sample_indices": [
+                        "any"
+                    ],
+                    "target_set_name": null,
+                    "fastq_mode": "ILMN_BCL2FASTQ",
+                    "read_path": "/home/workspace/data",
+                    "target_set": null
+                }
+            ],
+            "sample_desc": "",
+            "sample_id": "tinygex",
+            "trim_polya_min_score": 20,
+            "trim_tso_min_score": 20
+        },
+        "mro_file": "rna/sc_rna_counter_cs.mro"
+    },
+    "version": {
+        "martian": "v4.0.2",
+        "pipelines": "cellranger-5.0.1"
+    }
+}

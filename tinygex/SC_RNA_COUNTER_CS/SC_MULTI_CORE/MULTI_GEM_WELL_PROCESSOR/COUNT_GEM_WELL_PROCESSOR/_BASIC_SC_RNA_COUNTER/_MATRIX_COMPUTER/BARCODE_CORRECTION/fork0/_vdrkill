@@ -1,0 +1,42 @@
+{
+    "count": 8,
+    "size": 5002402,
+    "timestamp": "2021-02-14 06:47:56",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/chnk0-u085c28c746/files/chunk_summary.bcm.bincode",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/chnk0-u085c28c746/files/corrected_barcode_counts.bcc.bincode",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/chnk0-u085c28c746/files/total_barcode_counts.tbcc.bincode",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/chnk0-u085c28c746/files/invalid_shard.shard",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/chnk0-u085c28c746/files/valid_shard.shard",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/join-u085c28c746/files/total_barcode_counts.tbcc.bincode",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/join-u085c28c746/files/correct_barcode_counts.bcc.bincode",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/BARCODE_CORRECTION/fork0/join-u085c28c746/files/summary.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:46:30Z",
+            "DeltaBytes": 4595555
+        },
+        {
+            "Timestamp": "2021-02-14T06:46:32Z",
+            "DeltaBytes": 426353
+        },
+        {
+            "Timestamp": "2021-02-14T06:46:32.549894927Z",
+            "DeltaBytes": -68469
+        },
+        {
+            "Timestamp": "2021-02-14T06:47:42.398684252Z",
+            "DeltaBytes": -4515693
+        },
+        {
+            "Timestamp": "2021-02-14T06:47:54.405667821Z",
+            "DeltaBytes": -418073
+        },
+        {
+            "Timestamp": "2021-02-14T06:47:56.379139624Z",
+            "DeltaBytes": -167
+        }
+    ]
+}

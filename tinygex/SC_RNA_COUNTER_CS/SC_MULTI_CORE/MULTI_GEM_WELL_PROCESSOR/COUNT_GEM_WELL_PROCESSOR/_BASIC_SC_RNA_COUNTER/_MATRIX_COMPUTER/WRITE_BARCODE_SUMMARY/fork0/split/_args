@@ -1,0 +1,10 @@
+{
+    "barcode_whitelist": "3M-february-2018",
+    "bc_umi_info": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/ALIGN_AND_COUNT/fork0/chnk0-u085c28c748/files/bc_umi_info.bui"
+    ],
+    "feature_reference": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/split-u085c28c73e/files/feature_reference.frf.bincode",
+    "unique_gem_groups": [
+        1
+    ]
+}

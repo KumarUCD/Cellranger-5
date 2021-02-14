@@ -1,0 +1,52 @@
+{
+    "count": 62,
+    "size": 1983608,
+    "timestamp": "2021-02-14 06:49:32",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk00-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk00-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk01-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk01-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk02-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk02-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk03-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk03-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk04-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk04-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk05-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk05-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk06-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk06-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk07-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk07-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk08-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk08-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk09-u085c28c7e2/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/chnk09-u085c28c7e2/files/diffexp_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/join-u085c28c7e1/files/diffexp_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_DIFFERENTIAL_EXPRESSION/fork0/join-u085c28c7e1/files/diffexp_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:49:05Z",
+            "DeltaBytes": 5981
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:29Z",
+            "DeltaBytes": 1073920
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:30Z",
+            "DeltaBytes": 978099
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:31.386782825Z",
+            "DeltaBytes": -1017996
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:32.918939368Z",
+            "DeltaBytes": -965612
+        }
+    ]
+}

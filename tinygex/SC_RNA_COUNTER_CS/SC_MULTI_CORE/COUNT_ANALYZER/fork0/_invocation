@@ -1,0 +1,11 @@
+@include "rna/_sc_multi_defs.mro"
+
+call COUNT_ANALYZER(
+    filtered_matrices_h5  = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/join-u085c28c794/files/filtered_matrices_h5.h5",
+    no_secondary_analysis = false,
+    disable_crispr        = true,
+    filtered_feature_counts_matrix = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/join-u085c28c794/files/filtered_matrices_h5.h5",
+    filtered_barcodes     = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/join-u085c28c794/files/filtered_barcodes.csv",
+    feature_reference     = null,
+    counter_metrics_json  = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/SUMMARIZE_BASIC_REPORTS/fork0/join-u085c28c7e0/files/summary.json",
+)

@@ -1,0 +1,12 @@
+{
+    "barcode_counts": null,
+    "bc_correct_summary": null,
+    "feature_counts": null,
+    "feature_reference": null,
+    "invalid": null,
+    "paired_end": null,
+    "read1s": null,
+    "summary": null,
+    "total_read_pairs": null,
+    "valid": null
+}

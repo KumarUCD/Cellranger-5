@@ -1,0 +1,16 @@
+{
+    "chunks": [
+        {
+            "total_rows": 1116, 
+            "row_start": 0, 
+            "neighbor_index": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/neighbor_index.pickle", 
+            "submatrix": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/0_submatrix.h5", 
+            "k_nearest": 136, 
+            "use_bcs": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/use_bcs.h5"
+        }
+    ], 
+    "join": {
+        "__threads": 1, 
+        "__mem_gb": 3
+    }
+}

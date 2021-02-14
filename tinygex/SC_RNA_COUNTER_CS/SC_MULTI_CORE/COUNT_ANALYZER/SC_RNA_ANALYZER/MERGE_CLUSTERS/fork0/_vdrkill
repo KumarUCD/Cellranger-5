@@ -1,0 +1,28 @@
+{
+    "count": 4,
+    "size": 34212,
+    "timestamp": "2021-02-14 06:49:05",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/MERGE_CLUSTERS/fork0/join-u085c28c7d8/files/clusters_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/MERGE_CLUSTERS/fork0/join-u085c28c7d8/files/clusters_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:49:02Z",
+            "DeltaBytes": 4777
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:03Z",
+            "DeltaBytes": 5065
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:04Z",
+            "DeltaBytes": 40146
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:05.734687462Z",
+            "DeltaBytes": -34212
+        }
+    ]
+}

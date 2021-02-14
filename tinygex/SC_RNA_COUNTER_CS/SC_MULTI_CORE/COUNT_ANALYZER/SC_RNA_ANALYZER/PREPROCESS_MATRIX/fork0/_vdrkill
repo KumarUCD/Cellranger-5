@@ -1,0 +1,28 @@
+{
+    "count": 2,
+    "size": 444437,
+    "timestamp": "2021-02-14 06:49:32",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork0/join-u085c28c7c9/files/cloupe_matrix_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork0/join-u085c28c7c9/files/preprocessed_matrix_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:48:41Z",
+            "DeltaBytes": 4588
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:42Z",
+            "DeltaBytes": 450325
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:45.430537113Z",
+            "DeltaBytes": -377216
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:32.911717225Z",
+            "DeltaBytes": -67221
+        }
+    ]
+}

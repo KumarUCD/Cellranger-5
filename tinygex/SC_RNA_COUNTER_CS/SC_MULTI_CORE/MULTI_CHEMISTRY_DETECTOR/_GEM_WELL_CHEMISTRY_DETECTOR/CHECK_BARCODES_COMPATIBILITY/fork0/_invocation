@@ -1,0 +1,21 @@
+@include "rna/_cr_lib_stages.mro"
+
+call CHECK_BARCODES_COMPATIBILITY(
+    chemistry_name              = "SC3Pv3",
+    custom_chemistry_def        = null,
+    sample_def                  = [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "library_type": "Gene Expression",
+            "read_path": "/home/workspace/data",
+            "sample_indices": ["any"],
+            "sample_names": ["tinygex"],
+            "subsample_rate": null,
+            "target_set": null,
+            "target_set_name": null,
+        },
+    ],
+    enforce_library_concordance = true,
+)

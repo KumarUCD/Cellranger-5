@@ -1,0 +1,24 @@
+{
+    "count": 2,
+    "size": 727794,
+    "timestamp": "2021-02-14 06:49:23",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/COLLATE_METRICS/fork0/chnk0-u085c28c78e/files/summary.json",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/COLLATE_METRICS/fork0/chnk0-u085c28c78e/files/per_barcode_metrics.csv"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:47:42Z",
+            "DeltaBytes": 732928
+        },
+        {
+            "Timestamp": "2021-02-14T06:47:56.383254078Z",
+            "DeltaBytes": -2875
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:23.109189869Z",
+            "DeltaBytes": -724919
+        }
+    ]
+}

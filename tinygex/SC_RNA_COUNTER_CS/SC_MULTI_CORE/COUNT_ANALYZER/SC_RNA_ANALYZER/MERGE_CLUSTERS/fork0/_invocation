@@ -1,0 +1,8 @@
+@include "rna/_sc_rna_analyzer_stages.mro"
+
+call MERGE_CLUSTERS(
+    matrix_h5   = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork0/join-u085c28c7c9/files/preprocessed_matrix_h5.h5",
+    pca_h5      = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/CHOOSE_DIMENSION_REDUCTION_OUTPUT/fork0/chnk0-u085c28c7cf/files/pca_h5.h5",
+    clusters_h5 = "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/join-u085c28c7cf/files/clusters_h5.h5",
+    skip        = false,
+)

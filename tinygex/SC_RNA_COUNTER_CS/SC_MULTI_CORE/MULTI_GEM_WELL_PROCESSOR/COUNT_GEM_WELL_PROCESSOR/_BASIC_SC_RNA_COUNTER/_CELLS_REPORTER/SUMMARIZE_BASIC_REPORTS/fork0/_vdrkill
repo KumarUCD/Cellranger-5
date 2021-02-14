@@ -1,0 +1,19 @@
+{
+    "count": 1,
+    "size": 36864,
+    "timestamp": "2021-02-14 06:49:43",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/SUMMARIZE_BASIC_REPORTS/fork0/join-u085c28c7e0/files/summary.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:49:04Z",
+            "DeltaBytes": 50260
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:43.183918722Z",
+            "DeltaBytes": -36864
+        }
+    ]
+}

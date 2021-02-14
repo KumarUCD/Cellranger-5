@@ -1,0 +1,43 @@
+@include "rna/_common_stages.mro"
+
+call CELLRANGER_PREFLIGHT as CELLRANGER_PREFLIGHT_LOCAL(
+    full_check           = false,
+    sample_def           = [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": null,
+            "lanes": null,
+            "library_type": "Gene Expression",
+            "read_path": "/home/workspace/data",
+            "sample_indices": ["any"],
+            "sample_names": ["tinygex"],
+            "subsample_rate": null,
+            "target_set": null,
+            "target_set_name": null,
+        },
+    ],
+    chemistry_name       = "auto",
+    custom_chemistry_def = null,
+    reference_path       = "/home/workspace/refdata-gex-GRCh38-2020-A",
+    feature_reference    = null,
+    recovered_cells      = 5000,
+    force_cells          = null,
+    allowed_chems        = [
+        "auto",
+        "custom",
+        "threeprime",
+        "fiveprime",
+        "SC3P_auto",
+        "SC5P_auto",
+        "SC3Pv1",
+        "SC3Pv2",
+        "SC3Pv3",
+        "SC5P-PE",
+        "SC5P-R2",
+        "SC5P-R1",
+        "SC-FB",
+        "ARC-v1",
+    ],
+    r1_length            = null,
+    r2_length            = null,
+)

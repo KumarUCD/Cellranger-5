@@ -1,0 +1,139 @@
+{
+    "name": "ID.tinygex.SC_RNA_COUNTER_CS.CELLRANGER_PREFLIGHT.fork0.chnk0",
+    "pid": 2153,
+    "host": "bf18a83e9406",
+    "type": "local",
+    "cwd": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/CELLRANGER_PREFLIGHT/fork0/chnk0-u085c28c721/files",
+    "python": {
+        "binpath": "/home/cellranger-5.0.1/external/anaconda/bin/python",
+        "version": "2.7.17 |Anaconda, Inc.| (default, Oct 21 2019, 19:04:46) \n[GCC 7.3.0]"
+    },
+    "rusage": {
+        "self": {
+            "ru_maxrss": 18008,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 369,
+            "ru_majflt": 2,
+            "ru_nswap": 0,
+            "ru_utime": 0.002784,
+            "ru_stime": 0,
+            "ru_inblock": 264,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 1
+        },
+        "children": {
+            "ru_maxrss": 92292,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 65700,
+            "ru_majflt": 169,
+            "ru_nswap": 0,
+            "ru_utime": 0.534103,
+            "ru_stime": 0.210894,
+            "ru_inblock": 12576,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 46
+        }
+    },
+    "used_bytes": {
+        "rss": 18440192,
+        "shared": 3215360,
+        "vmem": 1101332480,
+        "text": 2543616,
+        "stack": 148119552,
+        "proc_count": 1
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 6,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 0,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 588.6187619287272,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 0,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 0,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 0,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2021-02-14 06:45:53",
+        "end": "2021-02-14 06:45:54",
+        "duration_seconds": 0.8259954
+    },
+    "threads": 1,
+    "memGB": 8,
+    "vmemGB": 11,
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_RNA_COUNTER_CS",
+        "args": {
+            "chemistry": "auto",
+            "feature_reference": null,
+            "force_cells": null,
+            "include_introns": false,
+            "no_bam": false,
+            "no_secondary_analysis": false,
+            "no_target_umi_filter": false,
+            "r1_length": null,
+            "r2_length": null,
+            "recovered_cells": 5000,
+            "reference_path": "/home/workspace/refdata-gex-GRCh38-2020-A",
+            "sample_def": [
+                {
+                    "gem_group": null,
+                    "library_type": "Gene Expression",
+                    "subsample_rate": null,
+                    "lanes": null,
+                    "sample_names": [
+                        "tinygex"
+                    ],
+                    "sample_indices": [
+                        "any"
+                    ],
+                    "target_set_name": null,
+                    "fastq_mode": "ILMN_BCL2FASTQ",
+                    "read_path": "/home/workspace/data",
+                    "target_set": null
+                }
+            ],
+            "sample_desc": "",
+            "sample_id": "tinygex",
+            "trim_polya_min_score": 20,
+            "trim_tso_min_score": 20
+        },
+        "mro_file": "rna/sc_rna_counter_cs.mro"
+    },
+    "version": {
+        "martian": "v4.0.2",
+        "pipelines": "cellranger-5.0.1"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "count": 1,
+    "size": 158736111,
+    "timestamp": "2021-02-14 06:46:21",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/WRITE_GENE_INDEX/fork0/chnk0-u085c28c722/files/gene_index.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:45:55Z",
+            "DeltaBytes": 158740282
+        },
+        {
+            "Timestamp": "2021-02-14T06:46:21.638152811Z",
+            "DeltaBytes": -158736111
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "name": "ID.tinygex.SC_RNA_COUNTER_CS.SC_MULTI_CORE.COUNT_ANALYZER.SC_RNA_ANALYZER.RUN_UMAP.fork0.chnk0",
+    "pid": 2928,
+    "host": "bf18a83e9406",
+    "type": "local",
+    "cwd": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_UMAP/fork0/chnk0-u085c28c7d1/files",
+    "python": {
+        "binpath": "/home/cellranger-5.0.1/external/anaconda/bin/python",
+        "version": "2.7.17 |Anaconda, Inc.| (default, Oct 21 2019, 19:04:46) \n[GCC 7.3.0]"
+    },
+    "rusage": {
+        "self": {
+            "ru_maxrss": 19348,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 508,
+            "ru_majflt": 0,
+            "ru_nswap": 0,
+            "ru_utime": 0,
+            "ru_stime": 0.003598,
+            "ru_inblock": 0,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 0
+        },
+        "children": {
+            "ru_maxrss": 246132,
+            "ru_ixrss": 0,
+            "ru_idrss": 0,
+            "ru_minflt": 63990,
+            "ru_majflt": 30,
+            "ru_nswap": 0,
+            "ru_utime": 6.650364,
+            "ru_stime": 0.166176,
+            "ru_inblock": 4824,
+            "ru_oublock": 0,
+            "ru_msgsnd": 0,
+            "ru_msgrcv": 0,
+            "ru_nsignals": 0,
+            "ru_nivcsw": 95
+        }
+    },
+    "used_bytes": {
+        "rss": 254427136,
+        "shared": 105082880,
+        "vmem": 2056421376,
+        "text": 2551808,
+        "stack": 440315904,
+        "proc_count": 16
+    },
+    "io": {
+        "total": {
+            "read": {
+                "sysc": 5296,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 20,
+                "bytes": 0
+            }
+        },
+        "max": {
+            "read": {
+                "sysc": 4344.193333980135,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 3.9997520025766335,
+                "bytes": 0
+            }
+        },
+        "dev": {
+            "read": {
+                "sysc": 54.60148128430854,
+                "bytes": 0
+            },
+            "write": {
+                "sysc": 0.06645623148057511,
+                "bytes": 0
+            }
+        }
+    },
+    "wallclock": {
+        "start": "2021-02-14 06:48:56",
+        "end": "2021-02-14 06:49:02",
+        "duration_seconds": 6.264169497
+    },
+    "threads": 4,
+    "memGB": 3,
+    "vmemGB": 6,
+    "profile_mode": "disable",
+    "stackvars_flag": "disable",
+    "monitor_flag": "disable",
+    "invocation": {
+        "call": "SC_RNA_COUNTER_CS",
+        "args": {
+            "chemistry": "auto",
+            "feature_reference": null,
+            "force_cells": null,
+            "include_introns": false,
+            "no_bam": false,
+            "no_secondary_analysis": false,
+            "no_target_umi_filter": false,
+            "r1_length": null,
+            "r2_length": null,
+            "recovered_cells": 5000,
+            "reference_path": "/home/workspace/refdata-gex-GRCh38-2020-A",
+            "sample_def": [
+                {
+                    "gem_group": null,
+                    "library_type": "Gene Expression",
+                    "subsample_rate": null,
+                    "lanes": null,
+                    "sample_names": [
+                        "tinygex"
+                    ],
+                    "sample_indices": [
+                        "any"
+                    ],
+                    "target_set_name": null,
+                    "fastq_mode": "ILMN_BCL2FASTQ",
+                    "read_path": "/home/workspace/data",
+                    "target_set": null
+                }
+            ],
+            "sample_desc": "",
+            "sample_id": "tinygex",
+            "trim_polya_min_score": 20,
+            "trim_tso_min_score": 20
+        },
+        "mro_file": "rna/sc_rna_counter_cs.mro"
+    },
+    "version": {
+        "martian": "v4.0.2",
+        "pipelines": "cellranger-5.0.1"
+    }
+}

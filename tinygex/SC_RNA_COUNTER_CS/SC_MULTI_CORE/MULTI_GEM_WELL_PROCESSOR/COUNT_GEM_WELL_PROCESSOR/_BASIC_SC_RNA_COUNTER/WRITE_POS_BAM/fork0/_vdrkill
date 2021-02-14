@@ -1,0 +1,27 @@
+{
+    "count": 1,
+    "size": 28131545,
+    "timestamp": "2021-02-14 06:47:57",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/WRITE_POS_BAM/fork0/chnk0-u085c28c78e/files/pos_sortedsingle_sample.bam"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:47:42Z",
+            "DeltaBytes": 8666
+        },
+        {
+            "Timestamp": "2021-02-14T06:47:54Z",
+            "DeltaBytes": 28140371
+        },
+        {
+            "Timestamp": "2021-02-14T06:47:57Z",
+            "DeltaBytes": 29536842
+        },
+        {
+            "Timestamp": "2021-02-14T06:47:57.369603302Z",
+            "DeltaBytes": -28131545
+        }
+    ]
+}

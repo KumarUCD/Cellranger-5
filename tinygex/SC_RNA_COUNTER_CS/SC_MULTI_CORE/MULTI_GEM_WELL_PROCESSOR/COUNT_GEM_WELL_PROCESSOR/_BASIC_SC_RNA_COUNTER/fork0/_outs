@@ -1,0 +1,140 @@
+{
+    "alignments": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/ALIGN_AND_COUNT/fork0/chnk0-u085c28c748/files/pos_sorted.asf"
+    ],
+    "annotation_files": null,
+    "bam_header": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/ALIGN_AND_COUNT/fork0/join-u085c28c748/files/bam_header",
+    "barcode_correction_csv": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/ALIGN_AND_COUNT/fork0/join-u085c28c748/files/barcode_summary.csv",
+    "barcode_summary": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_BARCODE_SUMMARY/fork0/chnk0-u085c28c78e/files/barcode_summary.h5",
+    "barcode_whitelist": "3M-february-2018",
+    "bc_umi_info": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/ALIGN_AND_COUNT/fork0/chnk0-u085c28c748/files/bc_umi_info.bui"
+    ],
+    "filtered_barcodes": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/join-u085c28c794/files/filtered_barcodes.csv",
+    "filtered_gene_bc_matrices_h5": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/join-u085c28c794/files/filtered_matrices_h5.h5",
+    "filtered_gene_bc_matrices_mex": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/FILTER_BARCODES/fork0/join-u085c28c794/files/filtered_matrices_mex",
+    "gem_groups": [
+        1
+    ],
+    "molecule_info": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/WRITE_MOLECULE_INFO/fork0/chnk0-u085c28c7c7/files/molecule_info.h5",
+    "nonambient_cell_calls": null,
+    "per_barcode_metrics": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/COLLATE_METRICS/fork0/chnk0-u085c28c78e/files/per_barcode_metrics.csv",
+    "per_barcode_metrics_shard": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/ALIGN_AND_COUNT/fork0/chnk0-u085c28c748/files/metrics_shard.bmsf"
+    ],
+    "possorted_genome_bam": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/WRITE_POS_BAM/fork0/join-u085c28c78e/files/pos_sorted_single_sample.bam",
+    "possorted_genome_bam_index": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/WRITE_POS_BAM/fork0/join-u085c28c78e/files/pos_sorted_single_sample.bam.bai",
+    "raw_gene_bc_matrices_h5": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_H5_MATRIX/fork0/chnk0-u085c28c78e/files/raw_feature_bc_matrix.h5",
+    "raw_gene_bc_matrices_mex": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/WRITE_MATRIX_MARKET/fork0/chnk0-u085c28c78e/files/raw_feature_bc_matrix",
+    "read1s": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/chnk0-u085c28c742/files/read1.fastq",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/chnk1-u085c28c742/files/read1.fastq"
+    ],
+    "read_chunks": [
+        {
+            "chemistry": {
+                "barcode_read_length": 16,
+                "barcode_read_offset": 0,
+                "barcode_read_type": "R1",
+                "barcode_whitelist": "3M-february-2018",
+                "description": "Single Cell 3' v3",
+                "endedness": "three_prime",
+                "name": "SC3Pv3",
+                "read_type_to_bcl2fastq_filename": {
+                    "I1": "I1",
+                    "I2": null,
+                    "R1": "R1",
+                    "R2": "R2"
+                },
+                "read_type_to_bcl_processor_filename": {
+                    "I1": "I1",
+                    "I2": "I2",
+                    "R1": "RA",
+                    "R2": null
+                },
+                "rna_read2_length": null,
+                "rna_read2_offset": 0,
+                "rna_read2_type": null,
+                "rna_read_length": null,
+                "rna_read_offset": 0,
+                "rna_read_type": "R2",
+                "si_read_length": null,
+                "si_read_offset": 0,
+                "si_read_type": "I1",
+                "strandedness": "+",
+                "umi_min_read_length": 10,
+                "umi_read_length": 12,
+                "umi_read_offset": 16,
+                "umi_read_type": "R1"
+            },
+            "chunk_id": 0,
+            "fastqs": {
+                "i1": "/home/workspace/data/tinygex_S1_L001_I1_001.fastq.gz",
+                "i2": null,
+                "r1": "/home/workspace/data/tinygex_S1_L001_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/workspace/data/tinygex_S1_L001_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 0,
+            "library_type": "Gene Expression",
+            "read_group": "tinygex:0:1:HFWFVDMXX:1",
+            "read_lengths": {},
+            "subsample_rate": null
+        },
+        {
+            "chemistry": {
+                "barcode_read_length": 16,
+                "barcode_read_offset": 0,
+                "barcode_read_type": "R1",
+                "barcode_whitelist": "3M-february-2018",
+                "description": "Single Cell 3' v3",
+                "endedness": "three_prime",
+                "name": "SC3Pv3",
+                "read_type_to_bcl2fastq_filename": {
+                    "I1": "I1",
+                    "I2": null,
+                    "R1": "R1",
+                    "R2": "R2"
+                },
+                "read_type_to_bcl_processor_filename": {
+                    "I1": "I1",
+                    "I2": "I2",
+                    "R1": "RA",
+                    "R2": null
+                },
+                "rna_read2_length": null,
+                "rna_read2_offset": 0,
+                "rna_read2_type": null,
+                "rna_read_length": null,
+                "rna_read_offset": 0,
+                "rna_read_type": "R2",
+                "si_read_length": null,
+                "si_read_offset": 0,
+                "si_read_type": "I1",
+                "strandedness": "+",
+                "umi_min_read_length": 10,
+                "umi_read_length": 12,
+                "umi_read_offset": 16,
+                "umi_read_type": "R1"
+            },
+            "chunk_id": 1,
+            "fastqs": {
+                "i1": "/home/workspace/data/tinygex_S1_L002_I1_001.fastq.gz",
+                "i2": null,
+                "r1": "/home/workspace/data/tinygex_S1_L002_R1_001.fastq.gz",
+                "r1_interleaved": false,
+                "r2": "/home/workspace/data/tinygex_S1_L002_R2_001.fastq.gz"
+            },
+            "gem_group": 1,
+            "library_id": 0,
+            "library_type": "Gene Expression",
+            "read_group": "tinygex:0:1:HFWFVDMXX:2",
+            "read_lengths": {},
+            "subsample_rate": null
+        }
+    ],
+    "slfe_feature_reference": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/split-u085c28c73e/files/feature_reference.frf.bincode",
+    "summary": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/SUMMARIZE_BASIC_REPORTS/fork0/join-u085c28c7e0/files/summary.json",
+    "target_set_name": null
+}

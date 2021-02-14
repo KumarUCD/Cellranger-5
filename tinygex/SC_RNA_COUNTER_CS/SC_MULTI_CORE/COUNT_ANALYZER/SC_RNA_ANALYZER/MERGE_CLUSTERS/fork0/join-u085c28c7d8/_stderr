@@ -1,0 +1,4 @@
+[stderr]
+/home/cellranger-5.0.1/mro/rna/stages/analyzer/merge_clusters/__init__.py:106: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  medoids = pca_df.groupby("cluster").apply(lambda x: x.median(axis=0)).as_matrix()[:, :-1]
+Computing 204 exact tests and 0 asymptotic tests.

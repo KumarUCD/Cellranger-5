@@ -1,0 +1,1 @@
+cellranger count --id=tinygex --transcriptome=/home/workspace/refdata-gex-GRCh38-2020-A --fastqs=/home/workspace/data --sample=tinygex --expect-cells=5000 --localcores=4 --localmem=48

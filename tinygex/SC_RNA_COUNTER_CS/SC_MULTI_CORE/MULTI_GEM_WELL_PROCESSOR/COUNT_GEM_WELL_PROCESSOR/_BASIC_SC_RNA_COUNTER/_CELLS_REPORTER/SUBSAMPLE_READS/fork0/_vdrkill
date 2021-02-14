@@ -1,0 +1,33 @@
+{
+    "count": 3,
+    "size": 33915115,
+    "timestamp": "2021-02-14 06:49:23",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/SUBSAMPLE_READS/fork0/chnk0-u085c28c7cd/files/metrics.pickle",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/SUBSAMPLE_READS/fork0/join-u085c28c7cb/files/merged_metrics.pickle",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_CELLS_REPORTER/SUBSAMPLE_READS/fork0/join-u085c28c7cb/files/summary.json"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:48:43Z",
+            "DeltaBytes": 21826
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:45Z",
+            "DeltaBytes": 16968034
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:02Z",
+            "DeltaBytes": 16996406
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:04.148015832Z",
+            "DeltaBytes": -33887809
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:23.102080731Z",
+            "DeltaBytes": -27306
+        }
+    ]
+}

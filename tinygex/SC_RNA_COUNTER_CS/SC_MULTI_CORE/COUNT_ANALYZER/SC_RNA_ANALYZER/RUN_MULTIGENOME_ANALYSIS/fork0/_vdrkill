@@ -1,0 +1,17 @@
+{
+    "count": 0,
+    "size": 0,
+    "timestamp": "",
+    "paths": null,
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:48:45Z",
+            "DeltaBytes": 4426
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:46Z",
+            "DeltaBytes": 5041
+        }
+    ]
+}

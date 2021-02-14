@@ -1,0 +1,34 @@
+{
+    "count": 8,
+    "size": 126960,
+    "timestamp": "2021-02-14 06:49:32",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_UMAP/fork0/chnk0-u085c28c7d1/files/umap_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_UMAP/fork0/chnk0-u085c28c7d1/files/umap_h5.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_UMAP/fork0/join-u085c28c7cf/files/umap_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_UMAP/fork0/join-u085c28c7cf/files/umap_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:48:47Z",
+            "DeltaBytes": 4867
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:56Z",
+            "DeltaBytes": 69548
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:03Z",
+            "DeltaBytes": 69696
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:06.030506534Z",
+            "DeltaBytes": -62740
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:32.941278567Z",
+            "DeltaBytes": -64220
+        }
+    ]
+}

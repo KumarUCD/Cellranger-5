@@ -1,0 +1,27 @@
+[stdout]
+Number of fastq units = 1
+Sampling reads from: Sample tinygex in "/home/workspace/data"
+Potential chemistries: {ThreePrimeV2, FivePrimeR2, FivePrimePE, ThreePrimeV3, ThreePrimeV1}
+
+
+Length based filtering for Sample tinygex in "/home/workspace/data"
+LengthStats {
+    median: {
+        R2: 91,
+        I1: 8,
+        R1: 28,
+    },
+}
+Compatible chemistries: {ThreePrimeV3, ThreePrimeV2, FivePrimeR2}
+Result: {FivePrimePE, ThreePrimeV3, ThreePrimeV1, ThreePrimeV2, FivePrimeR2}
+After length filter: {ThreePrimeV2, FivePrimeR2, ThreePrimeV3}
+
+
+Whitelist based filtering for Sample tinygex in "/home/workspace/data"
+{
+    ThreePrimeV3: 0.92335,
+    ThreePrimeV2: 0.01608,
+    FivePrimeR2: 0.01608,
+}
+Compatible chemistries: {ThreePrimeV3}
+Result: {ThreePrimeV3, ThreePrimeV2, FivePrimeR2}

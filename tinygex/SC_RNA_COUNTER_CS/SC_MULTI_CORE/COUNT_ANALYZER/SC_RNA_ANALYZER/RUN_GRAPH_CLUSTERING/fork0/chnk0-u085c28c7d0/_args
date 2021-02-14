@@ -1,0 +1,21 @@
+{
+    "__mem_gb": 1,
+    "__threads": 1,
+    "__vmem_gb": 4,
+    "balltree_leaf_size": null,
+    "input_pcs": null,
+    "k_nearest": 136,
+    "matrix_h5": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/PREPROCESS_MATRIX/fork0/join-u085c28c7c9/files/preprocessed_matrix_h5.h5",
+    "neighbor_a": null,
+    "neighbor_b": null,
+    "neighbor_index": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/neighbor_index.pickle",
+    "num_bcs": null,
+    "num_neighbors": null,
+    "pca_h5": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/CHOOSE_DIMENSION_REDUCTION_OUTPUT/fork0/chnk0-u085c28c7cf/files/pca_h5.h5",
+    "row_start": 0,
+    "similarity_type": "nn",
+    "skip": false,
+    "submatrix": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/0_submatrix.h5",
+    "total_rows": 1116,
+    "use_bcs": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/use_bcs.h5"
+}

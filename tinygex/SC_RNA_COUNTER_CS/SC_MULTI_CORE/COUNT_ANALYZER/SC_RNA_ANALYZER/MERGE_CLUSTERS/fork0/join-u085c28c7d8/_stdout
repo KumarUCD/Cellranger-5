@@ -1,0 +1,10 @@
+[stdout]
+(249, 1116) 24459
+Martian runtime detected. Try Num. = 1
+(1116, 10)
+127920
+[375 283 244 214]
+max=3
+Comparing clusters (2,3)
+	Computing params on (249,527) matrix
+	Running DE on 283 vs 244 cells

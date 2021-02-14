@@ -1,0 +1,7 @@
+{
+    "metrics_summary_csv": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/chnk0-u085c28c7fd/files/metrics_summary_csv.csv", 
+    "feature_reference": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/chnk0-u085c28c7fd/files/feature_reference.csv", 
+    "ws_data": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/chnk0-u085c28c7fd/files/ws_data.json", 
+    "metrics_summary_json": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/chnk0-u085c28c7fd/files/metrics_summary_json.json", 
+    "web_summary": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_REPORTER/SUMMARIZE_REPORTS/fork0/chnk0-u085c28c7fd/files/web_summary.html"
+}

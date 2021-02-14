@@ -1,0 +1,38 @@
+{
+    "count": 10,
+    "size": 4811695,
+    "timestamp": "2021-02-14 06:49:05",
+    "paths": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/chnk0-u085c28c7d0/files/chunked_neighbors.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/join-u085c28c7cf/files/clusters_csv",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/join-u085c28c7cf/files/louvain.out",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/join-u085c28c7cf/files/matrix.bin",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/0_submatrix.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/neighbor_index.pickle",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/split-u085c28c7cf/files/use_bcs.h5",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/COUNT_ANALYZER/SC_RNA_ANALYZER/RUN_GRAPH_CLUSTERING/fork0/join-u085c28c7cf/files/clusters_h5.h5"
+    ],
+    "errors": null,
+    "events": [
+        {
+            "Timestamp": "2021-02-14T06:48:47Z",
+            "DeltaBytes": 210804
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:48Z",
+            "DeltaBytes": 3651184
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:51Z",
+            "DeltaBytes": 969341
+        },
+        {
+            "Timestamp": "2021-02-14T06:48:56.130651364Z",
+            "DeltaBytes": -4801247
+        },
+        {
+            "Timestamp": "2021-02-14T06:49:05.231405115Z",
+            "DeltaBytes": -10448
+        }
+    ]
+}

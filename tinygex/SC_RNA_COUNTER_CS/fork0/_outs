@@ -1,0 +1,16 @@
+{
+    "analysis": "/home/workspace/tinygex/outs/analysis",
+    "cloupe": "/home/workspace/tinygex/outs/cloupe.cloupe",
+    "crispr_analysis": null,
+    "feature_reference": null,
+    "filtered_feature_bc_matrix": "/home/workspace/tinygex/outs/filtered_feature_bc_matrix",
+    "filtered_feature_bc_matrix_h5": "/home/workspace/tinygex/outs/filtered_feature_bc_matrix.h5",
+    "metrics_summary": "/home/workspace/tinygex/outs/metrics_summary.csv",
+    "molecule_info": "/home/workspace/tinygex/outs/molecule_info.h5",
+    "possorted_genome_bam": "/home/workspace/tinygex/outs/possorted_genome_bam.bam",
+    "possorted_genome_bam_index": "/home/workspace/tinygex/outs/possorted_genome_bam.bam.bai",
+    "raw_feature_bc_matrix": "/home/workspace/tinygex/outs/raw_feature_bc_matrix",
+    "raw_feature_bc_matrix_h5": "/home/workspace/tinygex/outs/raw_feature_bc_matrix.h5",
+    "target_panel": null,
+    "web_summary": "/home/workspace/tinygex/outs/web_summary.html"
+}

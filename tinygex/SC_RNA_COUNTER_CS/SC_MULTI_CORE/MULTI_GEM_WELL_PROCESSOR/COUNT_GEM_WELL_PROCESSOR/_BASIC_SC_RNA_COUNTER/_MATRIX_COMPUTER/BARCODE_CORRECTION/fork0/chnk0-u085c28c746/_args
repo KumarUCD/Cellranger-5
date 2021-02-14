@@ -1,0 +1,18 @@
+{
+    "__mem_gb": 4,
+    "__threads": 4,
+    "__vmem_gb": 7,
+    "barcode_counts": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/join-u085c28c73e/files/barcode_counts.bcc.bincode",
+    "barcode_whitelist": "3M-february-2018",
+    "gem_well": 1,
+    "invalid_uncorrected": [
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/chnk0-u085c28c742/files/invalid.shard",
+        "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/chnk1-u085c28c742/files/invalid.shard"
+    ],
+    "libraries_to_translate": [],
+    "range": {
+        "end": null,
+        "start": null
+    },
+    "valid_read_metrics": "/home/workspace/tinygex/SC_RNA_COUNTER_CS/SC_MULTI_CORE/MULTI_GEM_WELL_PROCESSOR/COUNT_GEM_WELL_PROCESSOR/_BASIC_SC_RNA_COUNTER/_MATRIX_COMPUTER/MAKE_SHARD/fork0/join-u085c28c73e/files/bc_correct_summary.bcm.bincode"
+}
