@@ -15,7 +15,7 @@ The image can be downloaded and executed through the CLI of Docker.
 	$ docker pull sushilbt/interactive_cellranger-5:latest
 ```
 ```
-2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.
+2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) is stored.
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
 ```
 ```
@@ -29,40 +29,41 @@ The image can be downloaded and executed through the CLI of Docker.
 #### Option 2: Build your own docker using docker file and CLI
 
 **Note:** You need to download github folder.
-
-1. In terminal
-          ```
-          docker build -t interactive_cellranger-5:latest
-          ```
-2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.
-	```	
+```
+1. In terminal/CMD
+          $docker build -t interactive_cellranger-5:latest
+```
+```
+2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.	
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
-	```
+```
+```
 3. Right click of http link and open it
-
-4. Click the cellranger.ipnyb in left panel 
+```
+```
+4. Click the cellranger.ipnyb in left panel
+```
 
 #### Option 3: Build your own docker using docker file and CLI directly from github
 
 **Note:** You need not to download github folder.
-
-1. In terminal
-          ```
-          docker build https://github.com/KumarUCD/Cellranger-5.git#main -t interactive_cellranger-5:latest
-          ```
+```
+1. In terminal/CMD
+          $ docker build https://github.com/KumarUCD/Cellranger-5.git#main -t interactive_cellranger-5:latest
+```
+```
 2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.
-	```	
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
-	```
+```
+```
 3. Right click of http link and open it
-
+```
+```
 4. Click the cellranger.ipnyb in left panel 
-
+```
 
 # Jupyter lab Example
 ## Run intractive Cellranger for 10X single cell RNA sequence analysis on any os (tested on Ubuntu, Windows, Mac)
-
-
 
 **Download human refrence genome index**
 ```bash
