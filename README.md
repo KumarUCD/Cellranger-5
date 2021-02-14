@@ -1,6 +1,5 @@
 
 ## Guide to downloading and running this Docker image
-#### Github link: https://github.com/KumarUCD/Cellranger-5.git
 _by Sushil Kumar from University of Colorado Anschutz Medical Campus_
 
 ### Step 1: Install Docker
