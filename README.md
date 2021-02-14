@@ -1,6 +1,6 @@
 
 ## Guide to downloading and running this Docker image
-_Sushil Kumar_
+_by Sushil Kumar_
 
 ### Step 1: Install Docker
 
