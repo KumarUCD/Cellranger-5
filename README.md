@@ -153,4 +153,3 @@ tinygex/outs/<br>
 
 
 ![GitHub Logo](tSNE.png)
-Format: ![Alt Text](url)
