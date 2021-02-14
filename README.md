@@ -14,13 +14,16 @@ The image can be downloaded and executed through the CLI of Docker.
 1. Pull(download) the Docker image:
 	$ docker pull sushilbt/interactive_cellranger-5:latest
 ```
+```
 2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.
-	```	
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
-	```
+```
+```
 3. Right click of http link and open it
-
+```
+```
 4. Click the cellranger.ipnyb in left panel 
+```
 
 
 #### Option 2: Build your own docker using docker file and CLI
