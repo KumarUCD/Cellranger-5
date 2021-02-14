@@ -33,7 +33,7 @@ The image can be downloaded and executed through the CLI of Docker.
           docker build -t interactive_cellranger-5:latest
           ```
 2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.
-        ```	
+	```	
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
 	```
 3. Right click of http link and open it
@@ -49,7 +49,7 @@ The image can be downloaded and executed through the CLI of Docker.
           docker build https://github.com/KumarUCD/Cellranger-5.git#main -t interactive_cellranger-5:latest
           ```
 2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.
-        ```	
+	```	
 	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
 	```
 3. Right click of http link and open it
@@ -63,29 +63,16 @@ The image can be downloaded and executed through the CLI of Docker.
 
 
 **Download human refrence genome index**
-
-
 ```bash
 %%bash
 wget https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz
 ```
-
-    IOPub data rate exceeded.
-    The Jupyter server will temporarily stop sending output
-    to the client in order to avoid crashing it.
-    To change this limit, set the config variable
-    `--ServerApp.iopub_data_rate_limit`.
-    
-    Current values:
-    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
-    ServerApp.rate_limit_window=3.0 (secs)
-    
+**Untar genome index**   
 ```bash
 %%bash
 tar -xzvf refdata-gex-GRCh38-2020-A.tar.gz
 rm refdata-gex-GRCh38-2020-A.tar.gz
 ```
-
     refdata-gex-GRCh38-2020-A/
     refdata-gex-GRCh38-2020-A/pickle/
     refdata-gex-GRCh38-2020-A/pickle/genes.pickle
@@ -112,9 +99,7 @@ rm refdata-gex-GRCh38-2020-A.tar.gz
     refdata-gex-GRCh38-2020-A/genes/genes.gtf
     refdata-gex-GRCh38-2020-A/reference.json
 
-
-### Run Cellranger                                                                                                                                                                                                                             
-
+### Run Cellranger                                                                                                                                                                                                                       
 ```bash
 %%bash
 cellranger count --id=tinygex \
@@ -130,8 +115,8 @@ cellranger count --id=tinygex \
     2021-02-14 16:20:58 [jobmngr] WARNING: configured to use 48GB of local memory, but only 42.5GB is currently available.
     2021-02-14 16:20:58 [runtime] Reattaching in local mode.
     Serving UI at http://e22fcd0ca138:34919?auth=YWa_O8hPHyClSIIZ0Z7dH7p6zyvm5DFns1DrLL09QLM
-    
-    
+ 
+  
     Outputs:
     - Run summary HTML:                         /home/workspace/tinygex/outs/web_summary.html
     - Run summary CSV:                          /home/workspace/tinygex/outs/metrics_summary.csv
@@ -155,14 +140,10 @@ cellranger count --id=tinygex \
 
 
 ### Visualize the summary and analysis
-
-
 ```python
 from IPython.display import FileLinks
 FileLinks(('tinygex/outs'), included_suffixes=['.html'])
-
 ```
-
 tinygex/outs/<br>
 &nbsp;&nbsp;<a href='tinygex/outs/web_summary.html' target='_blank'>web_summary.html</a><br>
 
