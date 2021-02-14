@@ -8,7 +8,7 @@ docker build -f Dockerfile -t Cellranger5
 
 **Build docker directly from github**
 ```
-docker build https://github.com/KumarUCD/Cellranger-5.git -f Dockerfile -t cellranger-5
+docker build https://github.com/KumarUCD/Cellranger-5.git#main -f Dockerfile -t cellranger-5
 ```
 
 
