@@ -149,8 +149,10 @@ from IPython.display import FileLinks
 FileLinks(('tinygex/outs'), included_suffixes=['.html'])
 ```
 **Click web_summary.html to see analysis in browser**
+```
 tinygex/outs/<br>
 &nbsp;&nbsp;<a href='tinygex/outs/web_summary.html' target='_blank'>web_summary.html</a><br>
+```
 
 ![GitHub Logo](image.png)
 
