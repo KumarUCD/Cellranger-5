@@ -22,7 +22,7 @@ The image can be downloaded and executed through the CLI of Docker.
 3. Right click of http link and open it
 ```
 ```
-4. Click the cellranger.ipnyb in left panel 
+4. Click the Cellranger.ipnyb in left panel 
 ```
 
 
@@ -41,7 +41,7 @@ The image can be downloaded and executed through the CLI of Docker.
 3. Right click of http link and open it
 ```
 ```
-4. Click the cellranger.ipnyb in left panel
+4. Click the Cellranger.ipnyb in left panel
 ```
 
 #### Option 3: Build your own docker using docker file and CLI directly from github
@@ -59,7 +59,7 @@ The image can be downloaded and executed through the CLI of Docker.
 3. Right click of http link and open it
 ```
 ```
-4. Click the cellranger.ipnyb in left panel 
+4. Click the Cellranger.ipnyb in left panel 
 ```
 
 # Jupyter lab Example
