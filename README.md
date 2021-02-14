@@ -11,8 +11,7 @@ To download and run intractive cellranger Docker image, you first need to instal
 
 The image can be downloaded and executed through the CLI of Docker.
 
-1. Pull(download) the Docker image:
-	```
+1. Pull(download) the Docker image:```
 	$ docker pull sushilbt/interactive_cellranger-5:latest
 	```
 2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) stored.
