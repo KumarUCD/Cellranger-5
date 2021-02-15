@@ -17,7 +17,7 @@ The image can be downloaded and executed through the CLI of Docker.
 ```
 ```
 2. Run the Docker image. Enter in the directory where your raw data (data directory of .fastq files) is stored.
-	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  interactive_cellranger-5:latest
+	$ docker run --rm -p 8888:8888 -v "$PWD":/home/workspace  sushilbt/interactive_cellranger-5:latest
 ```
 ```
 3. Right-click of HTTP link and open it
